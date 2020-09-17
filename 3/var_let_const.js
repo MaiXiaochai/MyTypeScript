@@ -1,6 +1,6 @@
 /*
 * --------------------------------------
-* @File       : var_let_const.ts
+* @File       : var_let_const.js
 * @Author     : maixiaochai
 * @Email      : maixiaochai@outlook.com
 * @CreatedOn  : 2020/9/15 19:41

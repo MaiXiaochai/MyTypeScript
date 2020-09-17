@@ -1,6 +1,6 @@
 /*
 * --------------------------------------
-* @File       : DataType.ts
+* @File       : DataType.js
 * @Author     : maixiaochai
 * @Email      : maixiaochai@outlook.com
 * @CreatedOn  : 2020/9/15 14:14
