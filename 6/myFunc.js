@@ -6,7 +6,6 @@
 * @CreatedOn  : 2020/9/18 14:43
 * --------------------------------------
 */
-
 // 函数基本示例
 /*function point(x: number, y: number) {
     return `(${x}, ${y})`
@@ -16,7 +15,6 @@
 let point1 = function (x: number, y: number) {
     return `(${x}, ${y})`
 }*/
-
 // 使用外部变量
 /*let num: number = 100
 
@@ -25,15 +23,15 @@ function mySum(num1: number, num2: number) {
 }
 
 console.log(mySum(1, 2));*/
-
-
 // 剩余参数
-function myMax(x: number, ...rest: number[]): number {
-    let result: number = x
-    for (let i = 0; i < rest.length; i++) {
-        result += result[i]
+function myMax(x) {
+    var rest = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        rest[_i - 1] = arguments[_i];
     }
-
-    return result
+    var result = x;
+    for (var i = 0; i < rest.length; i++) {
+        result += result[i];
+    }
+    return result;
 }
-
